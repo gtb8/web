@@ -44,13 +44,13 @@ h1 {
 h2 {
   font-size: 45px;
   font-weight: 300;
-  color: #004a96;
+  color: #233883;
   letter-spacing: -1px;
   margin-bottom: 1rem;
 }
 
 h3 {
-  /* color: #004a96; */
+  /* color: #233883; */
   color: var(--blanco);
   font-size: 33px;
   font-weight: 500;
@@ -59,13 +59,13 @@ h3 {
 h4 {
   font-size: 20px;
   font-weight: 500;
-  color: #004a96;
+  color: #233883;
 }
 
 h5 {
   font-size: 28px;
   font-weight: 300;
-  color: #004a96;
+  color: #233883;
   margin-bottom: 0.7rem;
 }
 
@@ -127,7 +127,7 @@ p.lead {
   box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
   font-size: 14px;
   font-weight: 500;
-  color: #004a96;
+  color: #233883;
   margin: 0.5rem;
   padding: 0.7rem 1.6rem;
   line-height: 1.8;
@@ -140,7 +140,7 @@ p.lead {
 }
 
 .light-bg {
-  background-color: #004a96;
+  background-color: #233883;
   /* background-image: linear-gradient( 122deg, #4765e2 0%, #385efc 100%); */
   /* background-color: #9eccf2; */
 }
@@ -435,7 +435,7 @@ header {
   background: #FFF;
   border-top-width: 3px;
   border-color: #00d3dd #f2f3fc #FFF;
-  color: #004a96;
+  color: #233883;
 }
 
 /*  TESTIMONIALS
@@ -532,7 +532,7 @@ header {
   border-top-width: 3px;
   border-color: #00d3dd #f2f3fc #FFF;
   box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
-  color: #004a96;
+  color: #233883;
 }
 
 .card.pricing .card-head {
@@ -544,7 +544,7 @@ header {
   display: block;
   font-size: 45px;
   font-weight: 300;
-  color: #004a96;
+  color: #233883;
 }
 
 .card.pricing .card-head .price sub {
