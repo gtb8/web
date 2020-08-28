@@ -4,14 +4,14 @@
   --naranjaPraxis: #ff7c00;
   --blanco: #ffffff;
   /* --azul1: #006d9b; */
-  --azul1: #004a96;
-  --azul2: #002841;
+  --azul2: #004a96;
+  --azul1: #002841;
 
-  --azul3: #00d3dd;
-  --azul4: #006d9b;
+  --azul4: #00d3dd;
+  --azul3: #006d9b;
 
-  --gris1: #eaeaea;
-  --gris2: #c1c1c1;
+  --gris2: #eaeaea;
+  --gris1: #c1c1c1;
 
 }
 
@@ -154,7 +154,7 @@ p.lead {
   background-image: linear-gradient( 122deg, var(--azul1) 0%, var(--azul2) 100%);
 }
 .light-bg2 {
-  background-image: linear-gradient( 122deg, var(--azul3) 0%, var(--azul4) 100%);
+  background-image: linear-gradient( 122deg, var(--azul3) 20%, var(--azul4) 100%);
 }
 .light-bg3 {
   background-image: linear-gradient( 122deg, var(--gris1) 0%, var(--gris2) 100%);
@@ -256,7 +256,7 @@ header {
   background-image: -ms-linear-gradient(     135deg, rgba(2, 68, 114) 0%, rgba(0, 40, 66) 100%);
   background-image: linear-gradient(         135deg, rgba(2, 68, 114) 0%, rgba(0, 40, 66) 100%); */
 
-  background-image: url("../images/fondoDesk.jpg");
+  background-image: url("../images/fondoIntro.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
