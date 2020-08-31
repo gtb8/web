@@ -10,8 +10,8 @@
   --azul4: #00d3dd;
   --azul3: #006d9b;
 
-  --gris2: #eaeaea;
-  --gris1: #c1c1c1;
+  --gris1: #dddddd;
+  --gris2: #f2f2f2;
 
 }
 
@@ -154,10 +154,10 @@ p.lead {
   background-image: linear-gradient( 122deg, var(--azul1) 0%, var(--azul2) 100%);
 }
 .light-bg2 {
-  background-image: linear-gradient( 122deg, var(--azul3) 20%, var(--azul4) 100%);
+  background-image: linear-gradient( 122deg, var(--azul3) 28%, var(--azul4) 100%);
 }
 .light-bg3 {
-  background-image: linear-gradient( 122deg, var(--gris1) 0%, var(--gris2) 100%);
+  background-image: linear-gradient( 122deg, var(--gris1) -20%, var(--gris2) 100%);
 }
 
 
@@ -196,7 +196,8 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-  background-color: rgb(21, 38, 86, 0.95);
+  /* background-color: rgb(21, 38, 86, 0.94); */
+  background-color: rgb(12, 23, 45, 0.96);
 
   /* background: -moz-linear-gradient(135deg,  rgb(255, 255, 255) 0%, rgb(200, 200, 200) 100%);
     background: -webkit-linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(200, 200, 200) 100%);
