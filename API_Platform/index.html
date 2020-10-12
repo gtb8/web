@@ -5,19 +5,19 @@
   <title>PRAXIS API Platform</title>
 
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="API's Gateway - PRAXIS">
+  <meta name="description" content="API Platform - PRAXIS">
   <meta name="keywords" content="APIS, PLATFORM, PRAXIS, digital">
-
 
   <!-- Favicons -->
   <link href="images/favicon.png" rel="icon">
   <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 
-
   <!-- Font -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -30,9 +30,8 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
-
-  <a href="https://mexico.praxisglobe.com/" target="_blank">
-    <img border="0" alt="" src="images/logoLat.png" style="position:fixed; margin-top:150px; margin-left:66px; height:14%; width: auto; " />
+  <a href="http://praxisglobe.com/" target="_blank">
+    <img border="0" alt="" src="images/logoLat.png" style="position:fixed; margin-top:140px; margin-left:66px; height:14%; width: auto; " />
   </a>
 
   <!-- Nav Menu -->
@@ -41,18 +40,29 @@
       <div class="row">
         <div class="col-md-12">
           <nav class="navbar navbar-dark navbar-expand-lg">
-            <a class="navbar-brand" href="index.html"><img src="images/logoN.png" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false"
-              aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logoN.png" class="img-fluid" alt="logo" style="width:80%;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item"> <a class="nav-link active" href="#home">INICIO <span class="sr-only">(current)</span></a> </li>
                 <li class="nav-item"> <a class="nav-link" href="#features">CARACTERÍSTICAS</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#catalog">CATÁLOGO</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#servicios">SERVICIOS</a> </li>
                 <!-- <li class="nav-item"> <a class="nav-link" href="#releases">NUEVOS LANZAMIENTOS</a> </li> -->
                 <li class="nav-item"> <a class="nav-link" href="#faq">PREGUNTAS FRECUENTES</a> </li>
                 <!-- <li class="nav-item"> <a class="nav-link" href="#pricing">PRICING</a> </li> -->
                 <li class="nav-item"> <a class="nav-link" href="#contact">CONTACTO</a> </li>
                 <!-- <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li> -->
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="flag-icon flag-icon-mx"> </span> Español</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown09">
+                    <a class="dropdown-item" href="#us"><span class="flag-icon flag-icon-us"> </span> English</a>
+                    <a class="dropdown-item" href="#br"><span class="flag-icon flag-icon-br"> </span> Português</a>
+                  </div>
+                </li>
               </ul>
             </div>
           </nav>
@@ -62,51 +72,23 @@
   </div>
 
   <!-- INTRO -->
-  <!-- <header class="bg-gradient" id="home" style="background-image: url('images/fondo.png'); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; "> -->
   <header class="bg-gradient" id="home">
     <div class="container mt-5">
-      <h1>PRAXIS: API Platform</h1>
+      <!-- <h1>PRAXIS:</h1> -->
+      <h1>API Platform</h1>
       <br>
-      <p class="tagline">
-        En nuestro catálogo nos esforzamos por diseñar APIs, que respondan a las lógicas empresariales, apoyando las líneas de negocio y optimizando los procesos comerciales de los usuarios de acuerdo a cada una de sus necesidades.
-        <br>
-      </p>
-      <img src="images/mac_Apis.png" alt="phone" class="img-fluid" style="margin-top:10px;">
+      <!-- <p class="tagline"> -->
+      <h4 style="color: white; text-align:center; ">En PRAXIS, nos esforzamos por diseñar un amplio catálogo de APIs, que respondan a las necesidades de negocio y lógicas empresariales de las compañías a nivel mundial.</h4>
+      <br>
+      <img src="images/mac_Apis4.png" alt="phone" class="img-fluid" style="margin-top:-18px; width: 90%;">
     </div>
   </header>
 
-  <!-- NUESTRO SELLO DIFERENCIADOR -->
-  <div class="section light-bg3"
-    style="background-color:#efefef; margin-left: auto; margin-right: auto; text-align: center; display: block; background-image: url('images/circulo3.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto 100%;">
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <img src="images/monitor.gif" alt="macPers2" class="img-fluid">
-        </div>
-        <div class="col-6">
-          <h2>Nuestro sello diferenciador</h2>
-          <p class="mb-4">PRAXIS, multinacional de TI con más de 20 años de experiencia conectando tecnología con empresas y usuarios.
-            <br>
-            <br>
-            ¡Contamos con herramientas, metodologías y recursos especializados para nuestros clientes!
-            <br>
-          </p>
-          <a href="https://mexico.praxisglobe.com/" target="_blank" class="btn btn-primary">Conócenos</a>
-          <!-- <div class="row">
-          <img src="images/circulo.png" alt="" class="img-fluid"  style="margin-left: auto; margin-right: auto; margin-top:60px; width: 50%; height: auto;">
-          </div> -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- // end .section -->
-
-
   <!-- CARACTERÍSTICAS -->
-  <div class="section light-bg" id="features">
+  <div class="section light-bg4" id="features">
     <div class="container" style="margin-top:0px; margin-bottom:60px;">
       <div class="section-title">
-        <small>NUESTRAS API'S</small>
+        <small style="color:#ffe771;" >NUESTRAS API'S</small>
         <h3>Características</h3>
       </div>
       <div class="row">
@@ -117,7 +99,7 @@
                 <img src="images/personalizable.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:100px; height:auto; text-align:center;">
                 <div class="media-body">
                   <h4 class="card-title">Personalizables</h4>
-                  <p class="card-text" style="margin-bottom:22px;">Multi-plataforma tecnológica que nos permite ser flexibles al integrar y configurar. </p>
+                  <p class="card-text" style="margin-bottom:32px;">Multi-plataforma tecnológica que nos permite ser flexibles al integrar y configurar. </p>
                 </div>
               </div>
             </div>
@@ -130,7 +112,9 @@
                 <img src="images/crecimiento.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:100px; height:auto; text-align:center;">
                 <div class="media-body">
                   <h4 class="card-title">Escalables</h4>
-                  <p class="card-text" style="margin-bottom:42px;">Ofrecemos soluciones para aplicaciones en diferentes países.</p>
+                  <p class="card-text" style="margin-bottom:-10px;">Operamos en ambientes cloud, ofreciendo soluciones para aplicaciones en diferentes países del mundo.
+                    <!-- <br>¡Apoyamos el incremento del volumen en transacciones, de acuerdo a la demanda de los usuarios!. -->
+                  </p>
                 </div>
               </div>
             </div>
@@ -143,7 +127,7 @@
                 <img src="images/seguro.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:100px; height:auto; text-align:center;">
                 <div class="media-body">
                   <h4 class="card-title">Seguras</h4>
-                  <p class="card-text">Seguridad, cumplimiento y protección salvaguardando la información y el abordaje en tratamiento de datos. </p>
+                  <p class="card-text" style="margin-bottom:10px;">Seguridad, cumplimiento y protección salvaguardando la información y el abordaje en tratamiento de datos. </p>
                 </div>
               </div>
             </div>
@@ -154,60 +138,170 @@
   </div>
   <!-- // end .section -->
 
-
-  <!-- CATÁLOGO -->
-  <div class="section light-bg2" id="catalog" style="margin-top:-40px; margin-bottom: 50px; background-color: #002841;">
+  <!-- NEGOCIOS -->
+  <div class="section light-bg3">
     <div class="container">
       <div class="section-title">
-        <small style="color:#DEC116;">CATÁLOGO</small>
-        <h3>Explora nuestras categorías</h3>
+        <small>Beneficios</small>
+        <h3>¿Cómo podemos ayudarte?</h3>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex align-items-center">
+
+          <ul class="list-unstyled ui-steps">
+
+            <li class="media">
+              <div class="circle-icon mr-4">1</div>
+              <div class="media-body">
+                <h5>Soluciones seguras:</h5>
+                <p>Cumplimos con las leyes y normativas locales y/o globales, para asegurar procesos de negocio transparentes.
+                  <br>
+                  Contamos con procesos de autenticación, los cuales disminuyen los riesgos operativos, el posible robo de identidad, información falsa o fraude.
+                </p>
+              </div>
+              <div class="col-md-3">
+                <img src="images/solucionesSeguras.png" alt="iphone" class="img-fluid" style="width:32%;">
+              </div>
+            </li>
+            <li class="media">
+              <div class="circle-icon mr-4">2</div>
+              <div class="media-body">
+                <h5>Áreas de negocio:</h5>
+                <p>Las APIs de PRAXIS, tienen soluciones para #OpenBanking, #OpenFinance, #OpenInsurance, #OpenRetail, entre otras áreas de negocio.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="images/areasNegocio.png" alt="iphone" class="img-fluid" style="width:32%;">
+              </div>
+            </li>
+            <li class="media">
+              <div class="circle-icon mr-4">3</div>
+              <div class="media-body">
+                <h5>Tecnológicas:</h5>
+                <p>Nuestro ecosistema de APIs, se complementa con tecnologías como el: IoT, Inteligencia Artificial, Big Data y Machine Learning, entregando una UX ideal.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="images/tecnologicas.png" alt="iphone" class="img-fluid" style="width:32%;">
+              </div>
+            </li>
+            <li class="media">
+              <div class="circle-icon mr-4">4</div>
+              <div class="media-body">
+                <h5>Ágiles:</h5>
+                <p>Optimiza tu time to market, minimizando costos, tiempos y esfuerzos en la implementación de soluciones hacia tus clientes.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="images/agiles.png" alt="iphone" class="img-fluid" style="width:32%;">
+              </div>
+            </li>
+            <li class="media">
+              <div class="circle-icon mr-4">5</div>
+              <div class="media-body">
+                <h5>Operaciones globales:</h5>
+                <p>Teniendo soluciones locales, internacionales y globales, con nuestras APIs podrás realizar tus operaciones desde cualquier lugar.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="images/operacionesGlobales.png" alt="iphone" class="img-fluid" style="width:32%;">
+              </div>
+            </li>
+            <!-- <li class="media my-4">
+              <div class="circle-icon mr-4">2</div>
+              <div class="media-body">
+                <h5>Share with friends</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem eveniet</p>
+              </div>
+            </li>
+            <li class="media">
+              <div class="circle-icon mr-4">3</div>
+              <div class="media-body">
+                <h5>Enjoy your life</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem </p>
+              </div>
+            </li>
+          </ul> -->
+        </div>
+        <!-- <div class="col-md-4">
+          <img src="images/mac_Apis.png" alt="iphone" class="img-fluid">
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- // end .section -->
+
+
+  <!-- SERVICIOS -->
+  <div class="section light-bg" id="servicios" style="margin-top:-40px;">
+    <div class="container">
+      <div class="section-title">
+        <small style="color:#ff7c00;">SERVICIOS</small>
+        <h3 style="font-size:28px;">Explora nuestras categorías y encuentra la API que necesita tu negocio.</h3>
       </div>
       <ul class="nav nav-tabs nav-justified" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#communication">Onboarding Digital</a>
+          <a class="nav-link active" data-toggle="tab" href="#onboarding" >ONBOARDING DIGITAL</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#schedule">Compliance</a>
+          <a class="nav-link" data-toggle="tab" href="#compliance" style="font-size:14px; margin-bottom: -18px;" >COMPLIANCE / <br> PREVENCIÓN DE FRAUDE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#messages">Credit Risk</a>
+          <a class="nav-link" data-toggle="tab" href="#creditRisk">RIESGO DE CRÉDITO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#contratos">CONTRATOS</a>
         </li>
       </ul>
       <div class="tab-content">
-        <div class="tab-pane fade show active" id="communication">
+        <div class="tab-pane fade show active" id="onboarding">
           <div class="d-flex flex-column flex-lg-row">
-            <img src="images/proceso.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:190px; height:auto;">
+            <img src="images/onboardingDigital.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
             <div>
               <h2>Digitaliza tu flujo de negocio.</h2>
               <br>
               <p class="lead">
-                Empieza a construir el proceso de contratación para tus productos y servicios con nuestras APIs:<br>
-                Extrayendo datos y comprobando la información.
+                Automatiza tus flujos de captación con clientes o los procesos de contratación para tus productos y servicios, seleccionando alguna de nuestras APIs.
               </p>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+              <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
                 ¡Quiero saber más!
-              </button>
-              <div class="collapse" id="collapseExample1">
-                <div class="card-body" style="margin-top:10px;">
-                  <div class="media" style="margin:30px; margin-bottom: 40px; margin-left: -20px; ">
-                    <img src="images/billetera.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
+              </button> -->
+              <div>
+                <!-- <div class="collapse" id="collapseExample1"> -->
+                <!-- APIS DE ONBOARDING DIGITAL -->
+                <div class="scrollable" style="margin-top:10px; margin-left: -28px;">
+                  <div class="media" style="margin:30px; margin-bottom: 40px;">
+                    <img src="images/idCard.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
                     <div class="media-body">
-                      <h4 class="card-title">API OCR ID</h4>
-                      <p class="card-text">Recibe imágenes de documentos de identidad como INE / IFE, pasaporte y/o fórmulas migratorias para extraer datos por OCR. </p>
+                      <h4 class="card-title">OBTENCIÓN DE INFORMACIÓN PERSONAL</h4>
+                      <p class="card-text">Obtén imágenes de documentos de identidad, pasaporte y/o formularios migratorios para extraer datos por OCR.</p>
                     </div>
                   </div>
-                  <div class="media" style="margin:30px; margin-bottom: 40px; margin-left: -20px; ">
+                  <div class="media" style="margin:30px; margin-bottom: 40px;">
                     <img src="images/filtrar.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
                     <div class="media-body">
-                      <h4 class="card-title">API OTP VALIDATION</h4>
-                      <p class="card-text">Verifica que los números de OTP (One Time Password) correspondan a las operaciones en los que fueron generados previamente. </p>
+                      <h4 class="card-title">CONSIGUE DATOS EMPRESARIALES</h4>
+                      <p class="card-text">Recibe imágenes de documentos empresariales como ... para extraer datos por OCR.</p>
                     </div>
                   </div>
-                  <div class="media" style="margin:30px; margin-bottom: 30px; margin-left: -20px; ">
-                    <img src="images/sello.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
+
+                  <div class="media" style="margin:30px; margin-bottom: 40px;">
+                    <img src="images/dobleAuten.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;" >
                     <div class="media-body">
-                      <h4 class="card-title">API AUTOSIGN</h4>
-                      <p class="card-text">Permite certificar un documento digital bajo la NOM-151-SCFI-2016 que garantiza la autenticidad del mismo para ser considerado documento electrónico. </p>
+                      <h4 class="card-title">DOBLE AUTENTICACIÓN</h4>
+                      <p class="card-text">Realiza procesos de autenticación vía SMS o correo electrónico, autorizando operaciones según los accesos de las personas.</p>
+                    </div>
+                  </div>
+
+                  <div class="media" style="margin:30px; margin-bottom: 40px;">
+                    <img src="images/validacionVideoconf.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;" >
+                    <div class="media-body">
+                      <h4 class="card-title">VALIDACIÓN POR VIDEOCONFERENCIA</h4>
+                      <p class="card-text">Valida de forma remota por medio de videoconferencia, la correspondencia entre el documento de identidad y la persona indicada.</p>
+                    </div>
+                  </div>
+
+                  <div class="media" style="margin:30px; margin-bottom: 40px;">
+                    <img src="images/aprobacionDocumentos.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;" >
+                    <div class="media-body">
+                      <h4 class="card-title">APROBACIÓN DE DOCUMENTOS</h4>
+                      <p class="card-text">Autentica los documentos de identidad presentados, conforme los organismos oficiales.</p>
                     </div>
                   </div>
                 </div>
@@ -216,71 +310,123 @@
           </div>
         </div>
 
-        <div class="tab-pane fade" id="schedule">
+        <div class="tab-pane fade" id="compliance">
           <div class="d-flex flex-column flex-lg-row">
+            <img src="images/compliance.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:14%; height:auto;">
             <div>
               <h2>Verifica la información de tu cliente.</h2>
               <br>
-              <p class="lead">
-                Evita ser objeto de lavado de dinero consultando las principales listas, organizaciones y organismos reguladores.
-              </p>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+              <p class="lead">Verifica la información de tu prospecto o cliente, identificando su perfil como un posible riesgo potencial o persona asociada a operaciones ilícitas.</p>
+              <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
                 ¡Quiero saber más!
-              </button>
-              <div class="collapse" id="collapseExample2">
-                <div class="card-body" style="margin-top:10px;">
-                  <div class="media" style="margin:30px; margin-bottom: 40px; margin-left: -20px;">
-                    <img src="images/lupa.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
+              </button> -->
+              <div>
+                <!-- APIS de COMPLIANCE Y PREVENCION DE FRAUDE: -->
+                <!-- <div class="card-body" style="margin-top:10px;"> -->
+                <div class="scrollable" style="margin-top:10px; margin-left: -28px;">
+                  <div class="media" style="margin:30px; margin-bottom: 40px;">
+                    <img src="images/validacionGlobal.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
                     <div class="media-body">
-                      <h4 class="card-title">API RENAPO</h4>
-                      <p class="card-text">Realiza operaciones de consulta en el Registro Nacional de Población con el CURP de una persona para obtener información respecto a sus datos de nacimiento.</p>
+                      <h4 class="card-title">VALIDACIÓN GLOBAL</h4>
+                      <p class="card-text">Acceso a todas las bases de datos y listas de sanciones nacionales e internacionales, eliminando posibles riesgos hacia tu negocio.</p>
                     </div>
                   </div>
-                  <div class="media" style="margin:30px; margin-bottom: 30px; margin-left: -20px;">
-                    <img src="images/thief.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
+                  <div class="media" style="margin:30px; margin-bottom: 30px;">
+                    <img src="images/validacionEspecifica.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
                     <div class="media-body">
-                      <h4 class="card-title">API GLOBAL LIST</h4>
-                      <p class="card-text">Búsqueda de personas o clientes potenciales que pueden tener coincidencias de nombre o que hayan sido reportados en alguna de las listas restringidas o de criminales. </p>
+                      <h4 class="card-title">VALIDACIÓN ESPECÍFICA</h4>
+                      <p class="card-text">Búsqueda de persona o empresa en una lista o listas específicas de sanciones nacionales o internacionales</p>
+                    </div>
+                  </div>
+                  <div class="media" style="margin:30px; margin-bottom: 30px;">
+                    <img src="images/verificacionDireccion.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
+                    <div class="media-body">
+                      <h4 class="card-title">VERIFICACIÓN DE DIRECCIÓN</h4>
+                      <p class="card-text">Valida direcciones físicas, reduciendo costos de visitas domiciliarias.</p>
+                    </div>
+                  </div>
+                  <div class="media" style="margin:30px; margin-bottom: 30px;">
+                    <img src="images/validacionEmail.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
+                    <div class="media-body">
+                      <h4 class="card-title">VALIDACIÓN DE EMAIL</h4>
+                      <p class="card-text">Valida la existencia de direcciones electrónicas proporcionadas.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <img src="images/data.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:200px; height:auto;">
           </div>
         </div>
-        <div class="tab-pane fade" id="messages">
+
+        <div class="tab-pane fade" id="creditRisk">
           <div class="d-flex flex-column flex-lg-row">
-            <img src="images/risk.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:190px; height:auto;">
+            <img src="images/risk2.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:14%; height:auto;">
             <div>
               <h2>Integra a tu proceso en línea, la evaluación en gestión y riesgo crediticio.</h2>
               <p class="lead">
                 Obtén flexibilidad a través de nuestras APIs, para integrar modelos de riesgo con listas o bureaus de crédito.
               </p>
-              <button class="btn btn-primary" type="button" style="text-align: center;" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+              <!-- <button class="btn btn-primary" type="button" style="text-align: center;" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
                 ¡Quiero saber más!
-              </button>
-              <div class="collapse" id="collapseExample3">
-                <div class="card-body" style="margin-top:10px;">
-                  <div class="media" style="margin-top:30px; margin-bottom: 40px; margin-left: -20px;">
+              </button> -->
+              <div>
+                <!-- <div class="card-body" style="margin-top:10px;"> -->
+                <!-- APIS DE CREDIT RISK: -->
+                <div class="scrollable" style="margin-top:10px; ">
+                  <div class="media" style="margin-top:30px; margin-bottom: 40px;">
                     <img src="images/credit.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
                     <div class="media-body">
-                      <h4 class="card-title">API CREDIT REPORT</h4>
-                      <p class="card-text">Consulta el historial crediticio de una persona o de un cliente potencial con base en la información existente en la Sociedad de Información Crediticia autorizada. </p>
+                      <h4 class="card-title">REPORTE DE CRÉDITO</h4>
+                      <p class="card-text">Consulta el historial crediticio de una persona o empresa, con base en la información existente dentro de las entidades autorizadas.</p>
                     </div>
                   </div>
-                  <div class="media" style="margin-top:30px; margin-bottom: 40px; margin-left: -20px;">
+                  <div class="media" style="margin-top:30px; margin-bottom: 40px;">
                     <img src="images/score.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
                     <div class="media-body">
-                      <h4 class="card-title">API CREDIT REPORT + FICO SCORE</h4>
-                      <p class="card-text">Consulta el historial crediticio de una persona o de un cliente potencial. Incluye un score crediticio que indica el nivel de cumplimiento de pago. </p>
+                      <h4 class="card-title">SCORING DE CRÉDITO</h4>
+                      <p class="card-text">Generación de clasificación en riesgo de crédito, mediante la ejecución de modelos de predicción. Producción de scorecards, ratings y despliegue de modelos estadísticos scoring.</p>
                     </div>
                   </div>
-                  <div class="media" style="margin-top:30px; margin-bottom: 30px; margin-left: -20px;">
+                  <div class="media" style="margin-top:30px; margin-bottom: 30px;">
                     <img src="images/capt.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
                     <div class="media-body">
-                      <h4 class="card-title">API CREDIT SCORING</h4>
-                      <p class="card-text">Generación de clasificaciones de riesgo de crédito mediante la ejecución de árboles de decisión. Generación de scorecards, ratings y despliegue de modelos estadísticos de scoring. </p>
+                      <h4 class="card-title">REPORTE DE CRÉDITO + SCORING</h4>
+                      <p class="card-text">Consulta el historial crediticio de una persona o empresa y su score crediticio indicando el nivel de cumplimiento de pago.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="contratos">
+          <div class="d-flex flex-column flex-lg-row">
+            <img src="images/contrato.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:14%; height:auto;">
+            <div>
+              <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</h2>
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy aliquam erat volutpat.
+              </p>
+              <!-- <button class="btn btn-primary" type="button" style="text-align: center;" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                ¡Quiero saber más!
+              </button> -->
+              <div>
+                <!-- <div class="card-body" style="margin-top:10px;"> -->
+                <!-- APIS DE CONTRATOS: -->
+                <div class="scrollable" style="margin-top:10px;">
+                  <div class="media" style="margin-top:30px; margin-bottom: 40px;">
+                    <img src="images/firmaDigital.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
+                    <div class="media-body">
+                      <h4 class="card-title">FIRMA DIGITAL</h4>
+                      <p class="card-text">Permite certificar un documento digital y su autenticidad, generando la firma de acuerdo a las regulaciones locales.</p>
+                    </div>
+                  </div>
+                  <div class="media" style="margin-top:30px; margin-bottom: 40px;">
+                    <img src="images/biometrica.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:80px; height:auto;">
+                    <div class="media-body">
+                      <h4 class="card-title">FIRMA BIOMÉTRICA</h4>
+                      <p class="card-text">Certifica un documento digital agregando elementos biométricos.</p>
                     </div>
                   </div>
                 </div>
@@ -310,57 +456,24 @@
   </div> -->
   <!-- // end .section -->
 
-  <!-- PASOS -->
-  <!-- <div class="section light-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 d-flex align-items-center">
-          <ul class="list-unstyled ui-steps">
-            <li class="media">
-              <div class="circle-icon mr-4">1</div>
-              <div class="media-body">
-                <h5>Create an Account</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem </p>
-              </div>
-            </li>
-            <li class="media my-4">
-              <div class="circle-icon mr-4">2</div>
-              <div class="media-body">
-                <h5>Share with friends</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem eveniet</p>
-              </div>
-            </li>
-            <li class="media">
-              <div class="circle-icon mr-4">3</div>
-              <div class="media-body">
-                <h5>Enjoy your life</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <img src="images/mac_Apis.png" alt="iphone" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- // end .section -->
 
-  <!-- Testimonios -->
-  <!-- <div class="section">
+  <!-- NUESTRA PLATAFORMA TÉCNICA -->
+  <div class="section light-bg4">
     <div class="container">
       <div class="section-title">
-        <small>TESTIMONIALS</small>
-        <h3>What our Customers Says</h3>
+        <small style="color: #ffe771;" >NUESTRA PLATAFORMA TÉCNICA</small>
+        <h3>Los Componentes</h3>
       </div>
-      <div class="testimonials owl-carousel">
-        <div class="testimonials-single">
-          <img src="images/client.png" alt="client" class="client-img">
-          <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via
-            user-centric partnerships.</blockquote>
-          <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-          <p class="text-primary">United States</p>
+      <div class="">
+        <img src="images/diagrama.png" alt="client" class="client-img">
+      </div>
+
+      <div class="testimonials owl-carousel" style="margin-top:20px;">
+        <div class="testimonials-single" >
+          <!-- <img src="images/diagrama.png" alt="client" class="client-img"> -->
+          <blockquote class="blockquote" style="color:white;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</blockquote>
+          <h5 class="mt-4 mb-2" style="color:white;">API Gateway</h5>
+          <p class="text-primary" style="color:white;">Api gateway</p>
         </div>
         <div class="testimonials-single">
           <img src="images/client.png" alt="client" class="client-img">
@@ -378,7 +491,7 @@
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
   <!-- // end .section -->
 
   <!-- <div class="section" id="pricing">
@@ -446,9 +559,10 @@
     <div class="container">
       <div class="section-title" style="padding-top:60px;">
         <small>FAQ</small>
-        <h3 style="color: #909090;">Preguntas frecuentes</h3>
+        <h3 style="color: white;">Preguntas frecuentes</h3>
       </div>
       <div class="row pt-4">
+
         <div class="col-md-6">
           <h4 class="mb-3">¿Qué puedes contratar con Onboarding Digital?</h4>
           <p class="light-font mb-5">
@@ -471,6 +585,7 @@
             &#8226; Cumple con las disposiciones oficiales de los organismos reguladores.
           </p>
         </div>
+
         <div class="col-md-6">
           <h4 class="mb-3">¿Qué puedes contratar con Credit Risk?</h4>
           <p class="light-font mb-5">
@@ -561,20 +676,53 @@
   <!-- // end .section -->
 
   <!-- MULTIPLATAFORMA -->
-  <!-- <div class="section light-bg2">
-      <div class="container" style="margin-top:-30px; margin-bottom:-50px;">
-        <div class="call-to-action">
-          <h2 style="color:#DEC116;"  >Multi-plataforma</h2>
-          <p class="tagline" style="color: white;">
-            El catálogo de PRAXIS API PLATFORM, es independiente al sistema operativo que utilices en tu empresa.
-          </p>
-          <div class="my-4">
-            <img src="images/windows2.png" alt="icon" style="margin:10px;">
-            <img src="images/apple2.png" alt="icon" style="margin:10px;">
-          </div>
+  <div class="section light-bg4">
+    <div class="container" style="margin-top:-30px; margin-bottom:-50px;">
+      <div class="call-to-action">
+        <h2 style="color:#ffe771;">Multi-plataforma</h2>
+        <p class="tagline" style="color: white;">
+          El catálogo de PRAXIS API PLATFORM, es independiente al sistema operativo que utilices en tu empresa.
+        </p>
+        <div class="my-4">
+          <img src="images/windows2.png" alt="icon" style="margin:10px;">
+          <img src="images/apple2.png" alt="icon" style="margin:10px;">
         </div>
       </div>
-    </div> -->
+    </div>
+  </div>
+  <!-- // end .section -->
+
+  <!-- NUESTRO SELLO DIFERENCIADOR -->
+  <div class="section light-bg3"
+    style="background-color:#efefef; margin-left: auto; margin-right: auto; text-align: center; display: block; background-image: url('images/circulo3.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto 100%;">
+    <div class="container">
+      <div class="section-title">
+        <small>NOSOTROS</small>
+        <h3 style="color:#004a96;">Nuestro sello diferenciador</h3>
+        <br>
+        <h5>Apoyamos, cubrimos y optimizamos los procesos comerciales de nuestros clientes, a través de productos digitales construidos con las mejores prácticas del mercado.</h5>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-6">
+          <img src="images/monitor.gif" alt="macPers2" class="img-fluid">
+        </div>
+        <div class="col-6">
+          <br>
+          <p class="mb-4">PRAXIS, multinacional de TI con más de 20 años de experiencia conectando tecnología con empresas y usuarios.
+            <br>
+            <br>
+            ¡Contamos con herramientas, metodologías y recursos especializados para nuestros clientes!
+            <br>
+          </p>
+          <a href="http://praxisglobe.com/" target="_blank" class="btn btn-primary">Conócenos</a>
+          <!-- <div class="row">
+          <img src="images/circulo.png" alt="" class="img-fluid"  style="margin-left: auto; margin-right: auto; margin-top:60px; width: 50%; height: auto;">
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- // end .section -->
 
   <!-- ALIANZAS -->
@@ -592,10 +740,10 @@
     <div class="container" style="margin-bottom:-30px;">
       <div class="row">
         <div class="col-lg-6 text-center text-lg-left">
-          <p class="mb-2" style="color: #004a93;">
+          <!-- <p class="mb-2" style="color: #004a93;">
             <span class="ti-location-pin mr-2"></span>
             Liverpool #18, Colonia Juárez, C.P. 06600 Mexico City, Mexico
-          </p>
+          </p> -->
           <div class=" d-block d-sm-inline-block">
             <p class="mb-2" style="color: #004a93;">
               <span class="ti-email mr-2"></span>
@@ -604,13 +752,13 @@
               </a>
             </p>
           </div>
-          <div class="d-block d-sm-inline-block">
+          <!-- <div class="d-block d-sm-inline-block">
             <p class="mb-0" style="color: #004a93;">
               <span class="ti-headphone-alt mr-2"></span> <a href="tel:5550800048" style="color: #004a93;">
                 50-80-00-48
               </a>
             </p>
-          </div>
+          </div> -->
         </div>
         <div class="col-lg-6">
           <div class="social-icons">
@@ -620,15 +768,22 @@
           </div>
         </div>
       </div>
+
+
+
+
+
+
       <div class="my-5 text-center">
-        <p class="mb-2">
+        <img src="images/logo_color.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" style="width:22%; margin-top:-30px;">
+        <p class="mb-2" style="margin-top:30px;">
           <small>2020. DERECHOS RESERVADOS</small>
           <br>
           <small>IT COMMITMENT UNLIMITED</small>
         </p>
         <small>
-          <a href="#" class="m-2">TÉRMINOS</a>
-          <a href="#" class="m-2">PRIVACIDAD</a>
+          <a href="https://mexico.praxisglobe.com/terminos.html" target="_blank" class="m-2">TÉRMINOS</a>
+          <a href="https://mexico.praxisglobe.com/privacidad.html" target="_blank" class="m-2">PRIVACIDAD</a>
         </small>
       </div>
     </div>
@@ -657,6 +812,8 @@
   <script src="js/owl.carousel.min.js"></script>
   <!-- Custom JS -->
   <script src="js/script.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 

@@ -2,6 +2,8 @@
 
 :root {
   --naranjaPraxis: #ff7c00;
+  --naranjaPraxis2: #db6d12;
+
   --blanco: #ffffff;
   /* --azul1: #006d9b; */
   --azul2: #004a96;
@@ -10,8 +12,17 @@
   --azul4: #00d3dd;
   --azul3: #006d9b;
 
-  --gris1: #dddddd;
+  /* --gris1: #adadad;
+  --gris2: #f2f2f2; */
+
+  --gris1: #adc3cd;
   --gris2: #f2f2f2;
+
+  /* --morado: #1d2489;
+  --bluesky: #1b9be6; */
+
+  --morado: #72d0f3;
+  --bluesky: #1f53af;
 
 }
 
@@ -32,6 +43,7 @@
 ----------------------*/
 body {
   font-family: 'Roboto', sans-serif;
+  /* font-family: 'Helvetica', sans-serif; */
   position: relative;
 }
 
@@ -73,10 +85,10 @@ h4 {
 }
 
 h5 {
-  font-size: 28px;
-  font-weight: 300;
-  color: var(--azul1);
-  margin-bottom: 0.7rem;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--azul3);
+  margin-bottom: 1.2rem;
 }
 
 p {
@@ -150,16 +162,26 @@ p.lead {
 }
 
 .light-bg {
-  /* background-color: var(--azul1); */
   background-image: linear-gradient( 122deg, var(--azul1) 0%, var(--azul2) 100%);
 }
 .light-bg2 {
-  background-image: linear-gradient( 122deg, var(--azul3) 28%, var(--azul4) 100%);
-}
-.light-bg3 {
-  background-image: linear-gradient( 122deg, var(--gris1) -20%, var(--gris2) 100%);
+  background-image: linear-gradient( 122deg, var(--azul3) 0%, var(--azul4) 100%);
 }
 
+/* Grises */
+.light-bg3 {
+  background-image: linear-gradient( 122deg, var(--gris1) 0%, var(--gris2) 100%);
+}
+
+/* Morado a rosa */
+.light-bg4 {
+  background-image: linear-gradient( 122deg, var(--bluesky) 0%, var(--morado) 100%);
+}
+
+/* Rosa a fiusca */
+.light-bg5 {
+  background-image: linear-gradient( 122deg, #ff8fd2 0%, #eb3585 100%);
+}
 
 
 .section {
@@ -257,7 +279,8 @@ header {
   background-image: -ms-linear-gradient(     135deg, rgba(2, 68, 114) 0%, rgba(0, 40, 66) 100%);
   background-image: linear-gradient(         135deg, rgba(2, 68, 114) 0%, rgba(0, 40, 66) 100%); */
 
-  background-image: url("../images/fondoIntro.jpg");
+  /* background-image: url("../images/fondoIntro.jpg"); */
+  background-image: url("../images/fondoa2.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -370,7 +393,7 @@ header {
   border-radius: 50%;
   margin-bottom: 1.5rem;
   background-color: #FFF;
-  color: #4638f4;
+  color: var(--azul2);
   font-size: 48px;
   text-align: center;
   line-height: 80px;
@@ -388,13 +411,20 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-  background-image: -moz-linear-gradient(122deg, #e6388e 0%, #fb378e 100%);
-  background-image: -webkit-linear-gradient(122deg, #e6388e 0%, #fb378e 100%);
-  background-image: -ms-linear-gradient(122deg, #e6388e 0%, #fb378e 100%);
-  background-image: linear-gradient(122deg, #e6388e 0%, #fb378e 100%);
+  background-image: -moz-linear-gradient(122deg,    var(--naranjaPraxis2) 0%, var(--naranjaPraxis) 100%);
+  background-image: -webkit-linear-gradient(122deg, var(--naranjaPraxis2) 0%, var(--naranjaPraxis) 100%);
+  background-image: -ms-linear-gradient(122deg,     var(--naranjaPraxis2) 0%, var(--naranjaPraxis) 100%);
+  background-image: linear-gradient(122deg,         var(--naranjaPraxis2) 0%, var(--naranjaPraxis) 100%);
   box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
   color: #FFF;
 }
+
+
+/* var(--azul1)
+var(--azul1)
+var(--azul1)
+var(--azul1) */
+
 
 .ui-steps li {
   padding: 15px 0;
@@ -446,7 +476,7 @@ header {
 .nav-tabs .nav-item .nav-link,
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
   border-color: #f2f3fc #f2f3fc #FFF;
   font-size: 19px;
   color: #a5adc6;
@@ -652,4 +682,11 @@ header {
     text-align: center;
     margin-top: 2rem;
   }
+}
+
+
+.scrollable {
+    height: 378px; /* or any value */
+
+    overflow-y: auto;
 }
