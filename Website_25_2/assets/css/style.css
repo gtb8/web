@@ -46,7 +46,7 @@ a:hover, a:active, a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -671,7 +671,8 @@ section {
 --------------------------------*/
 #featured-services {
   /* background: #2c406B; */
-  background: var(--azul1);
+  background: linear-gradient(45deg, #002842 0%, #233580 100%);
+  /* background-image: linear-gradient(0deg, #002842 0%, #242323 50%, #000000 100%); */
 }
 
 #featured-services .box {
@@ -853,7 +854,8 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 40, 66, 1), rgba(2, 65, 109, 0.8)), url(../img/call-to-action-bg.jpg) fixed center center;
+  /* background: linear-gradient(rgba(0, 40, 66, 1), rgba(2, 65, 109, 0.8)), url(../img/textoTI.png) fixed center center; */
+  background: linear-gradient(45deg, #002842 0%, #233580 100%);
   background-size: cover;
   padding: 60px 0;
 }
