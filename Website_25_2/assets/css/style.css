@@ -544,7 +544,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 32px;
-  border-radius: 50px;
+  border-radius: 30px;
   transition: 0.5s;
   margin: 10px;
   color: #fff;
@@ -924,7 +924,7 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: url("../img/mexico2.jpg") center top no-repeat fixed;
+  background: url("../img/crecimientoBg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
