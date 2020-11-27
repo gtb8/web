@@ -543,8 +543,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 32px;
-  border-radius: 30px;
+  padding: 12px 32px;
+  border-radius: 15px;
   transition: 0.5s;
   margin: 10px;
   color: #fff;
@@ -984,13 +984,14 @@ section {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 12px 24px;
   font-size: 16px;
   line-height: 20px;
-  color: #666666;
-  border-radius: 4px;
+  /* color: #666666; */
+  color: white;
+  border-radius: 6px;
   text-transform: uppercase;
-  background: #fff;
+  background: #002842;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -1141,7 +1142,7 @@ anchors are inline so you need ot make them block to go full width
 */
 .carousel-item a {
   display: block;
-  width:100%;
+  width:50%;
 }
 /* Termina mapa interactivo */
 
@@ -1579,14 +1580,15 @@ anchors are inline so you need ot make them block to go full width
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #000;
+  background: rgba(9, 19, 33, 1);
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 16px;
 }
 
 #footer .footer-top {
-  background: #002842;
+  /* background: #002842; */
+  background: rgba(9, 19, 33, 0.98);
   padding: 60px 0 30px 0;
 }
 
