@@ -714,7 +714,7 @@ section {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("../img/crecimientoBg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -1241,7 +1241,7 @@ anchors are inline so you need ot make them block to go full width
 
 #clients img {
   max-width: 100%;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transition: 0.3s;
   padding: 15px 0;
 }

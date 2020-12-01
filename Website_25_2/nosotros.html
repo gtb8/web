@@ -33,12 +33,11 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
-
 </head>
 
 <body>
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent" style="background: rgba(9, 19, 33, 0.98);">
+  <header id="header" class="fixed-top header-transparent">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-xl-11 d-flex align-items-center">
@@ -51,10 +50,31 @@
           <nav class="nav-menu d-none d-lg-block">
             <ul>
               <!-- <li class="active"><a href="index.html">Inicio</a></li> -->
-              <li><a href="#about">Nosotros</a></li>
-              <li><a href="#services">Especialidades</a></li>
-              <li><a href="#portfolio">Modalidades</a></li>
+              <li><a href="nosotros.html" target="_blank">Nosotros</a></li>
+              <li><a href="#portfolio">Especialidades</a></li>
+              <li><a href="#services">Modalidades</a></li>
               <li><a href="#team">Talento</a></li>
+              <!-- <li class="drop-down"><a href="">Librería de ideas</a>
+                <ul>
+                  <li><a href="#">BA & BPM </a></li>
+                  <li><a href="#">Big Data Analytics </a></li>
+                  <li><a href="#">Business Intelligence </a></li>
+                  <li><a href="#">Capacitación </a></li>
+                  <li><a href="#">Cloud </a></li>
+                  <li><a href="#">E-Karpay </a></li>
+                  <li><a href="#">Gestión de Procesos de TI </a></li>
+                  <li><a href="#">Infraestructura </a></li>
+                  <li><a href="#">Inteligencia Artificial </a></li>
+                  <li><a href="#">Productos Financieros </a></li>
+                  <li><a href="#">Project Management </a></li>
+                  <li><a href="#">SAP </a></li>
+                  <li><a href="#">Seguridad </a></li>
+                  <li><a href="#">Servicios Financieros </a></li>
+                  <li><a href="#">Solution Center </a></li>
+                  <li><a href="#">Soluciones Móviles </a></li>
+                  <li><a href="#">Testing </a></li>
+                </ul>
+              </li> -->
               <li><a href="#contact">Contacto</a></li>
               <li class="nav-item dropdown"> <a href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <span class="flag-icon flag-icon-mx"> </span> Español</a>
@@ -66,169 +86,113 @@
             </ul>
           </nav><!-- .nav-menu -->
         </div>
-
       </div>
-
-      <!-- <div class="container" style="margin-top:20px;" >
-        <div class="d-flex justify-content-between align-items-center">
-          <h2 style="color: #ff7c00 ;" >Nosotros</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Nosotros</li>
-          </ol>
-        </div>
-      </div> -->
-
     </div>
   </header><!-- End Header -->
+
+  <!-- ======= Intro Section CARRUSEL ======= -->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+        <!-- <ol class="carousel-indicators"></ol> -->
+        <div class="carousel-inner" role="listbox">
+          <!-- 1 Portada -->
+          <div class="carousel-item active" style="background-image: url(assets/img/nosotros/1.png)">
+            <div class="carousel-container">
+              <div class="container">
+                <!-- <div class="container" data-aos="zoom-in" style="margin-top:40px;">
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <!-- 2 More Digital More Alive-->
+          <div class="carousel-item" style="background-image:  url(assets/img/nosotros/2.png)">
+            <div class="carousel-container">
+              <!-- <div class="container">
+              </div> -->
+            </div>
+          </div>
+          <!-- 3 Presencia global -->
+          <div class="carousel-item" style="background-image:  url(assets/img/nosotros/3.png)">
+            <div class="carousel-container">
+              <!-- <div class="container">
+              </div> -->
+            </div>
+          </div>
+          <!-- 4 API Platform -->
+          <div class="carousel-item" style="background-image: url(assets/img/nosotros/4.png)">
+            <div class="carousel-container">
+              <!-- <div class="container">
+                <p class="animate__animated animate__fadeInUp">En PRAXIS, nos esforzamos por diseñar un amplio catálogo de APIs, que respondan a las necesidades de negocio y lógicas empresariales de las compañías a nivel mundial.</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Conoce más aquí</a>
+              </div> -->
+            </div>
+          </div>
+          <!--5 Cursos -->
+          <div class="carousel-item" style="background-image:  url(assets/img/nosotros/5.png)">
+            <div class="carousel-container">
+              <!-- <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Conoce nuestra oferta de cursos disponibles.</h2>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp" style="background-color:#002842;">Ir a cursos</a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section><!-- End Intro Section -->
+
   <main id="main">
 
-    <!-- <section class="breadcrumbs" > -->
-    <!-- <div class="container" style="margin-top:20px;" >
-        <div class="d-flex justify-content-between align-items-center">
-          <h2 style="color: #ff7c00 ;" >Nosotros</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Nosotros</li>
-          </ol>
-        </div>
-      </div> -->
-    <!-- </section> -->
-    <!-- End Breadcrumbs Section -->
-
-    <!--Carousel Wrapper-->
-    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-      <!--Indicators-->
-      <!-- <ol class="carousel-indicators">
-        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-2" data-slide-to="1"></li>
-        <li data-target="#carousel-example-2" data-slide-to="2"></li>
-      </ol> -->
-      <!--/.Indicators-->
-
-      <!--Slides-->
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <div class="view">
-            <img class="d-block w-100" src="assets/img/nosotros/gente1.png" alt="First slide">
-            <div class="mask rgba-black-light"></div>
-          </div>
-          <div class="carousel-caption" style="bottom:18%;">
-            <h1>Reunión trimestral</h1>
-            <h3>CDMX - 2018</h3>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <!--Mask color-->
-          <div class="view">
-            <img class="d-block w-100" src="assets/img/nosotros/gente2.png" alt="Second slide">
-            <div class="mask rgba-black-strong"></div>
-          </div>
-          <div class="carousel-caption" style="bottom:18%;">
-            <h1>Reunión trimestral</h1>
-            <h3>CDMX - 2018</h3>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <!--Mask color-->
-          <div class="view">
-            <img class="d-block w-100" src="assets/img/nosotros/gente3.png" alt="Third slide">
-            <div class="mask rgba-black-slight"></div>
-          </div>
-          <div class="carousel-caption" style="bottom:18%;">
-            <h1>Reunión trimestral</h1>
-            <h3>CDMX - 2018</h3>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <!--Mask color-->
-          <div class="view">
-            <img class="d-block w-100" src="assets/img/nosotros/gente4.png" alt="Third slide">
-            <div class="mask rgba-black-slight"></div>
-          </div>
-          <div class="carousel-caption" style="bottom:18%;">
-            <h1>Reunión trimestral</h1>
-            <h3>CDMX - 2018</h3>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <!--Mask color-->
-          <div class="view">
-            <img class="d-block w-100" src="assets/img/nosotros/gente5.png" alt="Third slide">
-            <div class="mask rgba-black-slight"></div>
-          </div>
-          <div class="carousel-caption" style="bottom:18%;">
-            <h1>Reunión trimestral</h1>
-            <h3>CDMX - 2018</h3>
-          </div>
-        </div>
-      </div>
-      <!--/.Slides-->
-      <!--Controls-->
-      <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      <!--/.Controls-->
-    </div>
-    <!--/.Carousel Wrapper-->
-
-    <!-- <section class="inner-page mt-4">
+    <!-- ======= NUESTRA ESENCIA ======= -->
+    <section id="featured-services">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
-      </div>
-    </section> -->
-    <!-- ======= Portfolio Details Section ======= -->
-    <!-- <section class="portfolio-details">
-      <div class="container">
-        <div class="portfolio-details-container">
-          <div class="owl-carousel portfolio-details-carousel">
-            <img src="assets/img/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/portfolio-details-2.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/portfolio-details-3.jpg" class="img-fluid" alt="">
+        <div class="row" style="margin-top:80px; margin-bottom: 80px;">
+          <div class="col-lg-12 box" style="margin:24px; text-align:center;">
+            <!-- <i class="ion-ios-bookmarks-outline"></i> -->
+            <!-- <h4 class="title"><a href="">NUESTRA ESENCIA</a></h4> -->
+            <img src="assets/img/nuestraEsencia.png" alt="" class="img-fluid" style="margin:20px;">
+            <p class="description">
+              PRAXIS es una empresa líder en transformación digital e innovación, dedicada a fortalecer las estrategias tecnológicas de las empresas.
+              <br>
+              <br>
+              Trabajando en conjunto por más de 25 años con personal altamente calificado, desarrollando ecosistemas de soluciones, metodologías y procesos especializados, ofreciendo servicios integrales a nivel global.
+            </p>
+            <!-- <img src="assets/img/nuestraEsenciaCirc.png" class="img-fluid" alt="" style="width:20%; margin: 60px;"> -->
           </div>
-          <div class="portfolio-info">
-            <h3>Project information</h3>
-            <ul>
-              <li><strong>Category</strong>: Web design</li>
-              <li><strong>Client</strong>: ASU Company</li>
-              <li><strong>Project date</strong>: 01 March, 2020</li>
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-            </ul>
+          <!-- <div class="col-lg-4 box box-bg">
+            <i class="ion-ios-stopwatch-outline"></i>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
-        </div>
-        <div class="portfolio-description">
-          <h2>This is an example of portfolio detail</h2>
-          <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis
-            tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-          </p>
+          <div class="col-lg-4 box">
+            <i class="ion-ios-heart-outline"></i>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div> -->
         </div>
       </div>
-    </section> -->
-    <!-- End Portfolio Details Section -->
+    </section>
 
-    <!-- ======= About Us Section ======= -->
+    <!-- ======= NOSOTROS ======= -->
     <section id="about">
       <div class="container" data-aos="fade-up">
-
         <header class="section-header">
-          <h3>Nosotros</h3>
+          <!-- <h3>Nosotros</h3> -->
+          <p style="text-align:center;">
+            <img src="assets/img/nosotros/textoNosotros.png" alt="" class="img-fluid">
+          </p>
           <p>El recurso humano de PRAXIS, tiene una sólida trayectoria profesional, contando con el compromiso, excelencia, ética, respeto, iniciativa y cooperación que necesita tu compañía. Como parte de nuestro programa de beneficios, alentamos a
             nuestros asociados a tomar cursos de certificación ofrecidos por el Project Management Institute (PMI®), Microsoft®, Oracle®, SAP®, IBM®, entre otros.</p>
         </header>
-
-
         <div class="row about-cols">
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="about-col">
@@ -277,182 +241,49 @@
           </div>
     </section><!-- End About Us Section -->
 
-    <!-- ======= NUESTRA ESENCIA ======= -->
-    <section id="featured-services">
-      <div class="container">
-        <div class="row" style="margin-top:80px; margin-bottom: 80px;">
-          <div class="col-lg-12 box" style="margin:24px; text-align:center;">
-            <!-- <i class="ion-ios-bookmarks-outline"></i> -->
-            <!-- <h4 class="title"><a href="">NUESTRA ESENCIA</a></h4> -->
-            <img src="assets/img/nuestraEsencia.png" alt="" class="img-fluid" style="margin:20px;">
-            <p class="description">
-              PRAXIS es una empresa líder en transformación digital e innovación, dedicada a fortalecer las estrategias tecnológicas de las empresas.
-              <br>
-              <br>
-              Trabajando en conjunto por más de 25 años con personal altamente calificado, desarrollando ecosistemas de soluciones, metodologías y procesos especializados, ofreciendo servicios integrales a nivel global.
-            </p>
-            <!-- <img src="assets/img/nuestraEsenciaCirc.png" class="img-fluid" alt="" style="width:20%; margin: 60px;"> -->
-          </div>
-          <!-- <div class="col-lg-4 box box-bg">
-            <i class="ion-ios-stopwatch-outline"></i>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-4 box">
-            <i class="ion-ios-heart-outline"></i>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div> -->
-        </div>
-      </div>
-    </section><!-- End Featured Services Section -->
-
     <!-- MAPA INTERACTIVO -->
     <section>
       <div class="container" data-aos="fade-up">
-      </div style=" position: static; height: 200px; width: auto; overflow: scroll;">
-      <header class="section-header wow fadeInUp">
-        <h3 style="text-align:center; margin: 40px;">NUESTRA PRESENCIA</h3>
-        <p>Transformamos a las empresas con soluciones tecnológicas, inteligentes, digitales y ágiles.</p>
-        <p>Con presencia en más de 10 países alrededor del mundo, más de 1300 colaboradores, 6 modalidades de servicio,<br>
-          3 fábricas de software y más de 15 años desarrollando proyectos de misión crítica y alta transaccionalidad.</p>
+        <header class="section-header wow fadeInUp">
+          <!-- <h3 style="text-align:center; margin: 40px;">NUESTRA PRESENCIA</h3> -->
+          <p style="text-align:center; margin-top: 80px;">
+            <img src="assets/img/nosotros/textoPresencia.png" alt="" class="img-fluid">
+          </p>
+          <p>Transformamos a las empresas con soluciones tecnológicas, inteligentes, digitales y ágiles.</p>
+          <p>Con presencia en más de 10 países alrededor del mundo, más de 1300 colaboradores, 6 modalidades de servicio,
+            <br>
+            3 fábricas de software y más de 15 años desarrollando proyectos de misión crítica y alta transaccionalidad.
+          </p>
+        </header>
 
-      </header>
-
-      <!--
-    ####################################################
-    C A R O U S E L
-    ####################################################
-    -->
-      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
-        <!-- <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="1" class="active"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-          <li data-target="#carousel" data-slide-to="3"></li>
-          <li data-target="#carousel" data-slide-to="4"></li>
-        </ol> -->
-        <div class="carousel-inner" role="listbox">
-
-          <!-- Item 1 -->
-          <div class="carousel-item active">
-            <a href="https://bootstrapcreative.com/">
-              <!--  If you need more browser support use https://scottjehl.github.io/picturefill/
-                    If a picture looks blurry on a retina device you can add a high resolution like this
-                    <source srcset="img/blog-post-1000x600-2.jpg, blog-post-1000x600-2@2x.jpg 2x" media="(min-width: 768px)">
-                    What image sizes should you use? This can help - https://codepen.io/JacobLett/pen/NjramL
-                    src="assets/img/mision.jpg" -->
-              <picture>
-                <source srcset="assets/img/mundo/planeta_1.png" media="(min-width: 1400px)">
-                <source srcset="assets/img/mundo/planeta_1.png" media="(min-width: 769px)">
-                <source srcset="assets/img/mundo/planeta_1.png" media="(min-width: 577px)">
-                <img srcset="assets/img/mundo/planeta_1.png" alt="responsive image" class="d-block img-fluid">
-              </picture>
-              <!-- <div class="carousel-caption" >
-                <div>
-                  <h2>Presencia internacional</h2>
-                  <p>We meticously build each site to get results</p>
-                  <span class="btn btn-sm btn-outline-secondary">Conoce más</span>
-                </div>
-              </div> -->
-            </a>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/planeta/1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/planeta/2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/planeta/3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/planeta/4.png" class="d-block w-100" alt="...">
+            </div>
           </div>
-
-          <!-- item 2 -->
-          <div class="carousel-item">
-            <a href="https://bootstrapcreative.com/">
-              <picture>
-                <source srcset="assets/img/mundo/planeta_2.png" media="(min-width: 1400px)">
-                <source srcset="assets/img/mundo/planeta_2.png" media="(min-width: 769px)">
-                <source srcset="assets/img/mundo/planeta_2.png" media="(min-width: 577px)">
-                <img srcset="assets/img/mundo/planeta_2.png" alt="responsive image" class="d-block img-fluid">
-              </picture>
-              <!-- <div class="carousel-caption justify-content-center align-items-center">
-                <div>
-                  <h2>Every project begins with a sketch</h2>
-                  <p>We work as an extension of your business to explore solutions</p>
-                  <span class="btn btn-sm btn-secondary">Our Process</span>
-                </div>
-              </div> -->
-            </a>
-          </div>
-
-          <!-- item 3 -->
-          <div class="carousel-item">
-            <a href="https://bootstrapcreative.com/">
-              <picture>
-                <source srcset="assets/img/mundo/planeta_3.png" media="(min-width: 1400px)">
-                <source srcset="assets/img/mundo/planeta_3.png" media="(min-width: 769px)">
-                <source srcset="assets/img/mundo/planeta_3.png" media="(min-width: 577px)">
-                <img srcset="assets/img/mundo/planeta_3.png" alt="responsive image" class="d-block img-fluid">
-              </picture>
-              <!-- <div class="carousel-caption justify-content-center align-items-center">
-                <div>
-                  <h2>Performance Optimization</h2>
-                  <p>We monitor and optimize your site's long-term performance</p>
-                  <span class="btn btn-sm btn-secondary">Learn How</span>
-                </div>
-              </div> -->
-            </a>
-          </div>
-
-          <!-- item 4 -->
-          <div class="carousel-item">
-            <a href="https://bootstrapcreative.com/">
-              <picture>
-                <source srcset="assets/img/mundo/planeta_4.png" media="(min-width: 1400px)">
-                <source srcset="assets/img/mundo/planeta_4.png" media="(min-width: 769px)">
-                <source srcset="assets/img/mundo/planeta_4.png" media="(min-width: 577px)">
-                <img srcset="assets/img/mundo/planeta_4.png" alt="responsive image" class="d-block img-fluid">
-              </picture>
-              <!-- <div class="carousel-caption justify-content-center align-items-center">
-                <div>
-                  <h2>Performance Optimization</h2>
-                  <p>We monitor and optimize your site's long-term performance</p>
-                  <span class="btn btn-sm btn-secondary">Learn How</span>
-                </div>
-              </div> -->
-            </a>
-          </div>
+          <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <!-- /.carousel-inner -->
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-      <!-- /.carousel -->
-
-      <!-- Termina mundo scroll -->
-      </div>
-      <!-- <form class="move">
-      <fieldset>
-        <legend>Toggle duration</legend>
-        <div>
-          <input type="radio" name="duration" id="bound" value="300" checked="">
-          <label for="bound">bound to scrollbar (duration = 300)</label>
-        </div>
-        <div>
-          <input type="radio" name="duration" id="unbound" value="0">
-          <label for="unbound">unbound from scrollbar (duration = 0)</label>
-        </div>
-      </fieldset>
-    </form>
-    <div class="spacer s2"></div>
-    <div class="spacer s0" id="trigger"></div>
-    <div id="imagesequence">
-      <img id="myimg" src="assets/img/scrollFrames/planeta_0.png"><br>
-      <a href="#" class="viewsource">view source</a>
-    </div>
-    <div class="spacer s2"></div> -->
     </section><!-- End Mapa section -->
 
-
-
-    <!-- ======= Skills Section ======= -->
+    <!-- ======= TRAYECTORIA ======= -->
     <section id="skills">
       <div class="container" data-aos="fade-up">
         <!-- <header class="section-header">
@@ -481,10 +312,12 @@
             </div>
           </div>
         </div> -->
-
         <section class="cd-horizontal-timeline" style="width:100%;">
           <header class="section-header wow fadeInUp">
-            <h3>NUESTRA TRAYECTORIA</h3>
+            <!-- <h3>NUESTRA TRAYECTORIA</h3> -->
+            <p style="text-align:center; margin-top: 20px;">
+              <img src="assets/img/nosotros/textoTrayectoria.png" alt="" class="img-fluid">
+            </p>
             <p>Por más de 2 décadas en el mercado, hemos hecho de los retos empresariales en PRAXIS, el impulso necesario para seguir cumpliendo nuestras metas y objetivos de negocio por todo el mundo.
               <br>
               <br>
@@ -579,7 +412,6 @@
                 </p><br>
                 <img src="assets/img/timeline/2018.jpg" alt="" class="center" style="width:72%; display: block;">
               </li>
-
               <!-- <li data-date="01/01/2001">
                   <h2 style="color:gray; text-align:center;">1996-2000</h2>
                 <em>June 21st, 2016</em>
@@ -618,7 +450,6 @@
             </ol>
           </div> <!-- .events-content -->
 
-
           <div class="timeline">
             <div class="events-wrapper">
               <div class="events">
@@ -642,30 +473,24 @@
             <!-- .cd-timeline-navigation -->
           </div>
           <!-- .timeline -->
-
-
         </section>
       </div>
     </section><!-- End Skills Section -->
 
     <!-- ======= ALIANZAS Section ======= -->
     <section id="clients">
-      <div class="container" data-aos="zoom-in">
+      <div class="container" data-aos="fade-up">
         <header class="section-header">
-          <h3>ALIANZAS Y ASOCIACIONES</h3>
+          <!-- <h3>ALIANZAS Y ASOCIACIONES</h3> -->
+          <p style="text-align:center; margin-top: 20px;">
+            <img src="assets/img/nosotros/textoAlianzas.png" alt="" class="img-fluid">
+          </p>
         </header>
         <p> En PRAXIS sabemos que crear sinergias es la opción inteligente para el crecimiento y el éxito, ya que la unión de todos los esfuerzos, dirigidos a alcanzar el mismo objetivo, brinda los mejores resultados para nuestros clientes.
           <br>
           <br>
           Aquí es donde radica nuestra responsabilidad de calidad: estamos siempre comprometidos a ayudar a mejorar el desarrollo de su negocio y dar un servicio de excelencia en tecnologías de la información.
         </p>
-        <p>En PRAXIS, sabemos que la unión de esfuerzos y conocimientos de calidad con nuestros aliados de negocio, generan grandes resultados empresariales.
-          <br>
-          <br>
-          Nos dedicamos a desarrollar sistemas tecnológicos con altos estándares de calidad, ofreciendo a nuestros clientes, servicios y productos que cuentan con alto valor agregado.
-        </p>
-
-
         <div class="owl-carousel clients-carousel">
           <img src="assets/img/alianzas/amazon.png" alt="">
           <img src="assets/img/alianzas/ibm.png" alt="">
@@ -679,20 +504,15 @@
           <img src="assets/img/alianzas/ist.png" alt="">
           <img src="assets/img/alianzas/huawei.png" alt="">
         </div>
-        <header class="section-header" style="margin-top:60px;">
+        <!-- <header class="section-header" style="margin-top:60px;">
           <h3>CERTIFICACIONES</h3>
-        </header>
-        <!-- <p>En PRAXIS, sabemos que la unión de esfuerzos y conocimientos de calidad con nuestros aliados de negocio, generan grandes resultados empresariales.
-          <br>
-          <br>
-          Nos dedicamos a desarrollar sistemas tecnológicos con altos estándares de calidad, ofreciendo a nuestros clientes, servicios y productos que cuentan con alto valor agregado.
-        </p> -->
-        <div class="owl-carousel clients-carousel">
+        </header> -->
+        <!-- <div class="owl-carousel clients-carousel">
           <img src="assets/img/alianzas/prosoft.png" alt="">
           <img src="assets/img/alianzas/amit.png" alt="">
           <img src="assets/img/alianzas/canieti.png" alt="">
           <img src="assets/img/alianzas/embajada.png" alt="">
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- End Our Clients Section -->
@@ -764,8 +584,6 @@
     </section> -->
     <!-- End Testimonials Section -->
 
-
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -773,56 +591,70 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>BizPage</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat
-              mauris nunc congue.</p>
+            <h3>SISTEMAS PRAXIS</h3>
+            <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat
+              mauris nunc congue.</p> -->
           </div>
-
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Enlaces útiles</h4>
             <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Nosotros</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Especialidades</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Modalidades</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Términos y condiciones</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Política de privacidad</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+            <h4>Contáctanos</h4>
+            <p style="font-size:14px;">
+              Calle Liverpool 18
+              Colonia Juárez
+              CP.06600
+              Delegación Cuauhtémoc
+              <br>
+              Ciudad de México
+              <br>
+              CDMX / México
+              <br>
+              <strong>Teléfono:</strong> 55 5080-0048<br>
+              <strong>Correo electrónico:</strong>
+              <br>
+              mexico@praxisglobe.com<br>
             </p>
-
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://twitter.com/Praxis_MX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/Praxis-Iberoam%C3%A9rica-117986241636766/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <!-- <a href=" " class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href=" " class="google-plus"><i class="fa fa-google-plus"></i></a> -->
+              <a href="https://www.linkedin.com/company/praxis_2/?originalSubdomain=mx" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
-
           </div>
-
           <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <h4>LIBRERÍA DE IDEAS</h4>
+            <p>
+              <img src="assets/img/bullet.png" alt="" class="img-fluid">
+              TENDENCIAS
+              <br>
+              <img src="assets/img/bullet.png" alt="" class="img-fluid">
+              DISEMINACIONES
+              <br>
+              <img src="assets/img/bullet.png" alt="" class="img-fluid">
+              WHITEPAPERS
+              <br>
+              <img src="assets/img/bullet.png" alt="" class="img-fluid">
+              WEBINARS
+            </p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
-
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="copyright">
         &copy; <strong>PRAXIS </strong>. Derechos Reservados
@@ -832,6 +664,7 @@
       </div> -->
     </div>
   </footer><!-- End Footer -->
+
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
