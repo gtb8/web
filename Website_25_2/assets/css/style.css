@@ -1022,7 +1022,8 @@ section {
 }
 
 #portfolio .portfolio-item figure {
-  background: #000;
+  /* background: #000; */
+  background: linear-gradient(45deg, #efefef 0%, #ffffff 90%);
   overflow: hidden;
   height: 240px;
   position: relative;
