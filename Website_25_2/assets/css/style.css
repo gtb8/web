@@ -13,10 +13,14 @@
 
   --naranjaPraxis: #ff7c00;
   --blanco: #ffffff;
+
   --azul2: #004a96;
-  --azul1: #002841;
+  /* --azul1: #002841; */
+  --azul1: #064a95;
+
   --azul4: #00d3dd;
   --azul3: #006d9b;
+
   --gris1: #dddddd;
   --gris2: #f2f2f2;
 
@@ -671,7 +675,7 @@ section {
 --------------------------------*/
 #featured-services {
   /* background: #2c406B; */
-  background: linear-gradient(45deg, #002842 0%, #233580 100%);
+  background: linear-gradient(45deg, #002842 0%, #064a95 100%);
   /* background-image: linear-gradient(0deg, #002842 0%, #242323 50%, #000000 100%); */
 }
 
@@ -856,7 +860,7 @@ section {
 --------------------------------*/
 #call-to-action {
   /* background: linear-gradient(rgba(0, 40, 66, 1), rgba(2, 65, 109, 0.8)), url(../img/textoTI.png) fixed center center; */
-  background: linear-gradient(45deg, #002842 0%, #233580 100%);
+  background: linear-gradient(45deg, #002842 0%, #064a95 100%);
   background-size: cover;
   padding: 60px 0;
 }
