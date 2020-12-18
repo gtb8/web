@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 44px;
   text-align: center;
   line-height: 1;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 50%;
   right: 15px;
   bottom: 15px;
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #fff;
   transition: 0.3s;
-  font-size: 12px;
+  font-size: 16px;
   font-family: "Helvetica", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down ul a {
   padding: 10px 20px;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: none;
   color: #333333;
 }
@@ -643,7 +643,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .breadcrumbs ol li+li {
@@ -990,7 +990,7 @@ section {
   margin: 15px 15px 15px 0;
   display: inline-block;
   padding: 12px 24px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   /* color: #666666; */
   color: white;
@@ -1424,7 +1424,7 @@ anchors are inline so you need ot make them block to go full width
 #team .member span {
   font-style: italic;
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
 }
 
@@ -1512,7 +1512,7 @@ anchors are inline so you need ot make them block to go full width
   color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #contact .php-email-form .error-message {
@@ -1608,7 +1608,7 @@ anchors are inline so you need ot make them block to go full width
   background: rgba(9, 19, 33, 1);
   padding: 0 0 30px 0;
   color: #eee;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #footer .footer-top {
@@ -1633,7 +1633,7 @@ anchors are inline so you need ot make them block to go full width
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Helvetica", sans-serif;
@@ -1661,7 +1661,7 @@ anchors are inline so you need ot make them block to go full width
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
@@ -1759,7 +1759,7 @@ anchors are inline so you need ot make them block to go full width
 
 #footer .credits {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   color: #ddd;
 }
 
