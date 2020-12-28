@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 10px 0;
 }
 
@@ -551,7 +551,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 15px;
+  border-radius: 20px;
   transition: 0.5s;
   margin: 10px;
   color: #fff;
@@ -882,7 +882,7 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
-  border-radius: 25px;
+  border-radius: 20px;
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid #fff;
@@ -993,7 +993,7 @@ section {
   line-height: 20px;
   /* color: #666666; */
   color: white;
-  border-radius: 6px;
+  border-radius: 12px;
   text-transform: uppercase;
   /* background: var(--azulObs); */
 
